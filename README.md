@@ -8,7 +8,7 @@ Das habe ich mal zum Test zusammen kopiert. Aber heilige Scheisse, die Arduino I
 
 
 
-Anleitung Ubuntu<br> 
+## Anleitung Ubuntu<br> 
 #kleiner Fehler beheben<br> 
 #"exec: "python": executable file not found in $PATH <br> 
 sudo ln -s /usr/bin/python3 /usr/bin/python <br> 
@@ -23,7 +23,7 @@ Menü -> File -> Preferences -> Compiler warnings -> Default <br>
 Menü -> File -> Preferences -> OK <br> 
 Tools -> Board -> Bord Manager -> Arduino Uno <br> 
 Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br> 
-# Weitere Libs installieren <br> 
+#Weitere Libs installieren <br> 
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "LiquidCrystal by Adafruit" -> INSTALL ALL <br> 
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "LCDMenuLib2 by Niles Feldkämper" -> INSTALL ALL <br> 
 Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "DHT sensor libary by Adafruit" -> INSTALL ALL <br> 
