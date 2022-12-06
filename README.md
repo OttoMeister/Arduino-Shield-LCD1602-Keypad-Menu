@@ -9,6 +9,16 @@ Das habe ich mal zum Test zusammen kopiert. Aber heilige Scheisse, die Arduino I
 
 
 ## Anleitung Ubuntu<br> 
+#ADB ANDROID IDE Fehler <br> 
+error: insufficient permissions for device: user in plugdev group; are your udev rules wrong? <br> 
+See [http://developer.android.com/tools/device.html] for more information <br> 
+$ lsusb <br> 
+Bus 001 Device 019: ID 2e04:c008 <br> 
+pluma /etc/udev/rules.d/51-android.rules <br> 
+SUBSYSTEM=="usb", ATTR{idVendor}=="2e04", ATTR{idProduct}=="c008", MODE="0666", GROUP="plugdev" <br> 
+sudo udevadm control --reload-rules <br> 
+adb kill-server <br> 
+adb devices <br> 
 #kleiner Fehler beheben<br> 
 #"exec: "python": executable file not found in $PATH <br> 
 sudo ln -s /usr/bin/python3 /usr/bin/python <br> 
