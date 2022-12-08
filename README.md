@@ -34,8 +34,8 @@ Menü -> File -> Preferences -> OK <br>
 Tools -> Board -> Bord Manager -> Arduino Uno <br> 
 Tools -> Port -> /dev/ttyACM0 auswählen -> OK <br> 
 #Weitere Libs installieren <br> 
-Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "LiquidCrystal by Adafruit" -> INSTALL ALL <br> 
-Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "LCDMenuLib2 by Niles Feldkämper" -> INSTALL ALL <br> 
-Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "DHT sensor libary by Adafruit" -> INSTALL ALL <br> 
-Libary Manager -> TFT_eSPI -> Suchen und Installieren  -> "Analog Buttons by AgileWare" -> INSTALL ALL <br> 
+Libary Manager -> Suchen und Installieren  -> "LiquidCrystal by Adafruit" -> INSTALL ALL <br> 
+Libary Manager -> Suchen und Installieren  -> "LCDMenuLib2 by Niles Feldkämper" -> INSTALL ALL <br> 
+Libary Manager -> Suchen und Installieren  -> "DHT sensor libary by Adafruit" -> INSTALL ALL <br> 
+Libary Manager -> Suchen und Installieren  -> "Analog Buttons by AgileWare" -> INSTALL ALL <br> 
 
