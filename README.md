@@ -38,4 +38,7 @@ Libary Manager -> Suchen und Installieren  -> "LiquidCrystal by Adafruit" -> INS
 Libary Manager -> Suchen und Installieren  -> "LCDMenuLib2 by Niles Feldkämper" -> INSTALL ALL <br> 
 Libary Manager -> Suchen und Installieren  -> "DHT sensor libary by Adafruit" -> INSTALL ALL <br> 
 Libary Manager -> Suchen und Installieren  -> "Analog Buttons by AgileWare" -> INSTALL ALL <br> 
+## License
+This project is released under the WTFPL LICENSE.
+<a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>
 
